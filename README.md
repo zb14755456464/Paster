@@ -9,3 +9,5 @@ cd zhangbiao
 python setup.py install
 
 gunicorn --paster zhangbiao/etc/config.ini
+
+curl http://127.0.0.1/zhangbiao/test/
