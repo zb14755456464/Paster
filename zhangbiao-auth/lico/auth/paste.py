@@ -21,19 +21,5 @@ class ServiceAuthFilter(object):
 
     def __call__(self, environ, start_response):
         print('hahahaahahahahahahahaha')
-        print('hahahaahahahahahahahaha')
-        print('hahahaahahahahahahahaha')
-        print('hahahaahahahahahahahaha')
-        print('hahahaahahahahahahahaha')
-        print(1111111111111111111111111)
-        print(1111111111111111111111111)
-        print(1111111111111111111111111)
-        print(1111111111111111111111111)
-        print(1111111111111111111111111)
-        print('zhangbiao zhangbiao zhangbiao')
-        print('zhangbiao zhangbiao zhangbiao')
-        print('zhangbiao zhangbiao zhangbiao')
-        print('zhangbiao zhangbiao zhangbiao')
         print('zhangbiao zhangbiao zhangbiao')
         return self.app(environ, start_response)
-
