@@ -31,7 +31,8 @@ setup(
     python_requires='~=3.6',
     entry_points={
         'paste.app_factory': [
-            'main = lico.proxy.filesystem.factory:create_app'
+            'host = lico.proxy.filesystem.factory:create_app',
+            'webdav = lico.proxy.filesystem.factory:create_webdav_app'
         ],
     }
 )
