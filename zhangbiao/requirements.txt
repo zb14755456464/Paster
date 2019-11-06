@@ -1,3 +1,6 @@
 falcon>=1.4.1
 setuptools>=36.0
 webdavclient3
+WsgiDAV>=3.0.0
+lxml>=4.0
+webdavclient3>=0.11
