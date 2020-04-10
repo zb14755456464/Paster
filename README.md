@@ -8,7 +8,7 @@ python setup.py install
 cd zhangbiao
 python setup.py install
 
-gunicorn --paster etc/lico-file-manager.ini  --timeout 3600 --keep-alive 65 --log-level info --access-logfile - --error-logfile - --capture-output
+gunicorn --paste etc/lico-file-manager.ini  --timeout 3600 --keep-alive 65 --log-level info --access-logfile - --error-logfile - --capture-output
 
 # wsgi is host
 curl http://127.0.0.1/zhangbiao/test/
